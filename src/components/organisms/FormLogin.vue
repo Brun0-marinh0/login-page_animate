@@ -7,7 +7,7 @@ const inform = ref({
   isShowPassword: false
 })
 
-let typingTimer: NodeJS.Timeout | null = null
+let typingTimer: any | null = null
 const typingDelay = 500 
 
 const emits = defineEmits(['update-values'])
