@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --colorMain: ##FFFEFB;
+}
+
+body{
+    font-family: sans-serif;
+    background: var(--colorMain);
+}
+
+button:hover{
+    cursor: pointer;
+}
