@@ -110,6 +110,9 @@ const login = () =>{
     display: flex;
     align-items: end;
   }
+  .content_password input{
+    border-radius: .3rem 0 0 .3rem;
+  }
   .content_password label{
     width: 100%;
   }
@@ -118,6 +121,7 @@ const login = () =>{
     display: grid;
     place-items: center;
     width: 3.5rem;
+    border-radius:  0 .3rem .3rem 0;
   }
 
   .content_password button img{
